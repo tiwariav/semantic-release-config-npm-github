@@ -1,0 +1,28 @@
+{
+  "name": "@tiwariav/semantic-release-config-npm-github",
+  "description": "Semantic release config for github and npm",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiwariav/semantic-release-config-npm-github.git"
+  },
+  "homepage": "https://github.com/tiwariav/semantic-release-config-npm-github#readme",
+  "bugs": {
+    "url": "https://github.com/tiwariav/semantic-release-config-npm-github/issues"
+  },
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "packageManager": "yarn@4.0.1",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.3",
+    "@semantic-release/npm": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "semantic-release": "^22.0.7"
+  }
+}

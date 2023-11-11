@@ -533,7 +533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^11.0.0, @semantic-release/npm@npm:^11.0.1":
+"@semantic-release/npm@npm:^11.0.0":
   version: 11.0.1
   resolution: "@semantic-release/npm@npm:11.0.1"
   dependencies:
@@ -635,10 +635,14 @@ __metadata:
     "@semantic-release/commit-analyzer": "npm:^11.1.0"
     "@semantic-release/git": "npm:^10.0.1"
     "@semantic-release/github": "npm:^9.2.3"
-    "@semantic-release/npm": "npm:^11.0.1"
     "@semantic-release/release-notes-generator": "npm:^12.1.0"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
     semantic-release: "npm:^22.0.7"
+  peerDependencies:
+    "@semantic-release/npm": ^11.0.1
+  peerDependenciesMeta:
+    "@semantic-release/npm":
+      optional: true
   languageName: unknown
   linkType: soft
 

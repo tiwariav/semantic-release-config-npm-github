@@ -1,4 +1,10 @@
 const config = require("./index.js");
 
-config.plugins[4] = "@semantic-release/npm";
-module.exports = config;
+module.exports = {
+  ...config,
+  plugins: [
+    ...config.plugins,
+    "@semantic-release/github",
+    "@semantic-release/npm",
+  ],
+};

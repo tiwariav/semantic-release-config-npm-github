@@ -1,4 +1,4 @@
-# @tiwariav/semantic-release-config-npm-github
+# @tiwariav/semantic-release-config
 
 ## Known Issues
 

@@ -1,16 +1,16 @@
 {
-  "name": "@tiwariav/semantic-release-config-npm-github",
+  "name": "@tiwariav/semantic-release-config",
   "description": "Semantic release config for github and npm",
   "version": "1.0.2",
   "type": "commonjs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiwariav/semantic-release-config-npm-github.git"
+    "url": "https://github.com/tiwariav/semantic-release-config.git"
   },
-  "homepage": "https://github.com/tiwariav/semantic-release-config-npm-github#readme",
+  "homepage": "https://github.com/tiwariav/semantic-release-config#readme",
   "bugs": {
-    "url": "https://github.com/tiwariav/semantic-release-config-npm-github/issues"
+    "url": "https://github.com/tiwariav/semantic-release-config/issues"
   },
   "scripts": {
     "release": "npm publish --access public"
@@ -20,17 +20,8 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "semantic-release": "^22.0.7"
-  },
-  "peerDependencies": {
-    "@semantic-release/npm": "^11.0.1"
-  },
-  "peerDependenciesMeta": {
-    "@semantic-release/npm": {
-      "optional": true
-    }
   }
 }

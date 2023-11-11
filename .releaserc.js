@@ -1,4 +1,4 @@
-const config = require("./index.cjs");
+const config = require("./index.js");
 
 config.plugins[4] = "@semantic-release/npm";
 module.exports = config;

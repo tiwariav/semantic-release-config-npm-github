@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/tiwariav/semantic-release-config/compare/v1.1.2...v1.1.3) (2023-11-11)
+
+
+### ♻️ Code Refactors
+
+* remove npm entry file ([d05c2b3](https://github.com/tiwariav/semantic-release-config/commit/d05c2b31d69b8b5b85e887f2730e4fdec2c5117a))
+
 ## [1.0.2](https://github.com/tiwariav/semantic-release-config/compare/v1.0.1...v1.0.2) (2023-11-11)
 
 ### 🐛 Bug Fixes

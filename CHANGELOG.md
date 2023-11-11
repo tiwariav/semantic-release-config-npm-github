@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/tiwariav/semantic-release-config/compare/v1.1.4...v1.1.5) (2023-11-11)
+
+
+### 🐛 Bug Fixes
+
+* add semantic release plugins to own release config ([7aa0617](https://github.com/tiwariav/semantic-release-config/commit/7aa0617cd9f43f0c4694c33f616cd4f225116194))
+
 ## [1.1.4](https://github.com/tiwariav/semantic-release-config/compare/v1.1.3...v1.1.4) (2023-11-11)
 
 

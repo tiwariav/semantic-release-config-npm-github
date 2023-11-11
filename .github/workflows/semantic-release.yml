@@ -9,8 +9,10 @@ jobs:
   build-and-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: tiwariav/github-actions/semantic-release-yarn@main
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run semantic-release
+        uses: tiwariav/github-actions/semantic-release-yarn@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           npm-token: ${{ secrets.NPM_TOKEN }}

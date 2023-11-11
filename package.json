@@ -1,7 +1,7 @@
 {
   "name": "@tiwariav/semantic-release-config-npm-github",
   "description": "Semantic release config for github and npm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "commonjs",
   "license": "MIT",
   "repository": {

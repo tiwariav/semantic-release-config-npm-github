@@ -13,10 +13,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Run semantic-release
         uses: tiwariav/github-actions/semantic-release-yarn@main
-        with:
-          extra_plugins: |
-            @semantic-release/github
-            @semantic-release/npm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

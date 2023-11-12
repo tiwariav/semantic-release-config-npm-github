@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/tiwariav/semantic-release-config/compare/v1.1.6...v1.1.7) (2023-11-12)
+
+
+### ♻️ Code Refactors
+
+* update dependencies ([0e8a3c6](https://github.com/tiwariav/semantic-release-config/commit/0e8a3c6d9a475eee28be203ad60960781a9eaffa))
+
 ## [1.1.6](https://github.com/tiwariav/semantic-release-config/compare/v1.1.5...v1.1.6) (2023-11-12)
 
 

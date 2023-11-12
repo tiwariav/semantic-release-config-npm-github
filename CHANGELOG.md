@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/tiwariav/semantic-release-config/compare/v1.1.5...v1.1.6) (2023-11-12)
+
+
+### ♻️ Code Refactors
+
+* update dependencies for new version of semantic-release-yarn ([a87f5a7](https://github.com/tiwariav/semantic-release-config/commit/a87f5a704168b675789bb4ed85ea11d5531586cd))
+
 ## [1.1.5](https://github.com/tiwariav/semantic-release-config/compare/v1.1.4...v1.1.5) (2023-11-11)
 
 

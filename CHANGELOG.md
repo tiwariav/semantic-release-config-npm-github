@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/tiwariav/semantic-release-config/compare/v1.1.8...v1.1.9) (2023-11-19)
+
+
+### ♻️ Code Refactors
+
+* update npm version ([a655210](https://github.com/tiwariav/semantic-release-config/commit/a655210197556df9a050994f40f84f5069fbfc2b))
+
 ## [1.1.8](https://github.com/tiwariav/semantic-release-config/compare/v1.1.7...v1.1.8) (2023-11-19)
 
 

@@ -45,5 +45,7 @@ module.exports = {
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
     ],
+    ...(process.env["INPUT_GITHUB-TOKEN"] ? ["@semantic-release/github"] : []),
+    ...(process.env["INPUT_NPM-TOKEN"] ? ["@semantic-release/npm"] : []),
   ],
 };

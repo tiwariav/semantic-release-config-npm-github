@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/tiwariav/semantic-release-config/compare/v1.1.7...v1.1.8) (2023-11-19)
+
+
+### 🐛 Bug Fixes
+
+* add github and npm plugins dynamically ([e17bb74](https://github.com/tiwariav/semantic-release-config/commit/e17bb740b793726ca0c3a4272f57a6233bab34af))
+
 ## [1.1.7](https://github.com/tiwariav/semantic-release-config/compare/v1.1.6...v1.1.7) (2023-11-12)
 
 

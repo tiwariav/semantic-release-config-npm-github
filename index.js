@@ -1,3 +1,7 @@
+const fs = require("fs");
+
+const distPath = "./dist";
+
 module.exports = {
   branches: ["main"],
   plugins: [
@@ -37,6 +41,17 @@ module.exports = {
       },
     ],
     "@semantic-release/changelog",
+    ...(process.env.GITHUB_TOKEN ? ["@semantic-release/github"] : []),
+    ...(process.env.NPM_TOKEN
+      ? [
+          [
+            "@semantic-release/npm",
+            {
+              pkgRoot: fs.existsSync(distPath) ? distPath : "./",
+            },
+          ],
+        ]
+      : []),
     [
       "@semantic-release/git",
       {
@@ -45,7 +60,5 @@ module.exports = {
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
     ],
-    ...(process.env.GITHUB_TOKEN ? ["@semantic-release/github"] : []),
-    ...(process.env.NPM_TOKEN ? ["@semantic-release/npm"] : []),
   ],
 };

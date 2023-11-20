@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/tiwariav/semantic-release-config/compare/v1.1.12...v1.1.13) (2023-11-20)
+
+
+### ♻️ Code Refactors
+
+* update package.json version manually ([521548b](https://github.com/tiwariav/semantic-release-config/commit/521548b9a0e56a74807e8c49b4d300d6c4c441e9))
+
 ## [1.1.12](https://github.com/tiwariav/semantic-release-config/compare/v1.1.11...v1.1.12) (2023-11-20)
 
 

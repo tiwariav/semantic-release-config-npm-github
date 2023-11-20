@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/tiwariav/semantic-release-config/compare/v1.1.11...v1.1.12) (2023-11-20)
+
+
+### 🐛 Bug Fixes
+
+* fix plugins order ([b3dfda5](https://github.com/tiwariav/semantic-release-config/commit/b3dfda5747ffd5d6ded9c6fbd6eac44bf22704b0))
+
 ## [1.1.11](https://github.com/tiwariav/semantic-release-config/compare/v1.1.10...v1.1.11) (2023-11-20)
 
 

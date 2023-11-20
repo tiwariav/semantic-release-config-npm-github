@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/tiwariav/semantic-release-config/compare/v1.1.10...v1.1.11) (2023-11-20)
+
+
+### ♻️ Code Refactors
+
+* remove unused files ([d7dd589](https://github.com/tiwariav/semantic-release-config/commit/d7dd5898d4820ade167404d7d1441549609ea63c))
+
 ## [1.1.10](https://github.com/tiwariav/semantic-release-config/compare/v1.1.9...v1.1.10) (2023-11-20)
 
 

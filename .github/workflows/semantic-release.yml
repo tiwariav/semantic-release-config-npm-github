@@ -11,11 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-      - name: Run semantic-release
-        run: |
-          npm i -g semantic-release @semantic-release/changelog @semantic-release/git conventional-changelog-conventionalcommits
-          semantic-release
-        shell: bash
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: tiwariav/github-actions/semantic-release@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          npm-token: ${{ secrets.NPM_TOKEN }}

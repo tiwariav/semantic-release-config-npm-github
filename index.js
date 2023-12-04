@@ -42,6 +42,7 @@ module.exports = {
     ],
     "@semantic-release/changelog",
     ...(process.env.GITHUB_TOKEN ? ["@semantic-release/github"] : []),
+    ...(process.env.GITLAB_TOKEN ? ["@semantic-release/gitlab"] : []),
     ...(process.env.NPM_TOKEN
       ? [
           [

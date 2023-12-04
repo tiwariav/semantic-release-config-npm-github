@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/tiwariav/semantic-release-config/compare/v1.1.13...v1.2.0) (2023-12-04)
+
+
+### ✨ Features
+
+* add conditional gitlab plugin ([b308520](https://github.com/tiwariav/semantic-release-config/commit/b308520078e774ff6322fb81c111dd9311d3c97c))
+
 ## [1.1.13](https://github.com/tiwariav/semantic-release-config/compare/v1.1.12...v1.1.13) (2023-11-20)
 
 

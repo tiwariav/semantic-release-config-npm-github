@@ -533,9 +533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^9.2.5":
-  version: 9.2.5
-  resolution: "@semantic-release/github@npm:9.2.5"
+"@semantic-release/github@npm:^9.2.6":
+  version: 9.2.6
+  resolution: "@semantic-release/github@npm:9.2.6"
   dependencies:
     "@octokit/core": "npm:^5.0.0"
     "@octokit/plugin-paginate-rest": "npm:^9.0.0"
@@ -551,24 +551,24 @@ __metadata:
     issue-parser: "npm:^6.0.0"
     lodash-es: "npm:^4.17.21"
     mime: "npm:^4.0.0"
-    p-filter: "npm:^3.0.0"
+    p-filter: "npm:^4.0.0"
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 4a3f8613e736e69e80b451fbed2c264d27e0c2b187c3758451640eaef417e4a154d13cb0cc6a31ff540e8ab70608b6ef847bc3ca8bb9ccba9295a02d00462f55
+  checksum: 699131327d5280581ef1f300c905d6565b3d730a08eb43473a58b3802aa53cd2d0be4561a121840f66d93c4eac630c9563877b430b191848412a39a7651f2244
   languageName: node
   linkType: hard
 
-"@semantic-release/gitlab@npm:^12.1.1":
-  version: 12.1.1
-  resolution: "@semantic-release/gitlab@npm:12.1.1"
+"@semantic-release/gitlab@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@semantic-release/gitlab@npm:13.0.0"
   dependencies:
     "@semantic-release/error": "npm:^4.0.0"
     aggregate-error: "npm:^5.0.0"
     debug: "npm:^4.0.0"
     dir-glob: "npm:^3.0.0"
     escape-string-regexp: "npm:^5.0.0"
-    form-data: "npm:^4.0.0"
+    formdata-node: "npm:^6.0.3"
     fs-extra: "npm:^11.0.0"
     globby: "npm:^14.0.0"
     got: "npm:^13.0.0"
@@ -578,7 +578,7 @@ __metadata:
     url-join: "npm:^4.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 803ce47c6d82e7358f23608993319aeab18fece5dbe6e5815785cfe280eb9069cf7ee50b8a529b92fb77a837143136bf52bd0fc26c55711bf154703b689f3f6c
+  checksum: c384faed27b0a6b5463392159d301524c936eaf4d2ff3b963e739b5fa9a827f0dde263d05cfde3eba81efd6074b247a84192c0e70fe08454903aa8b6e5ba5d4d
   languageName: node
   linkType: hard
 
@@ -722,8 +722,8 @@ __metadata:
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/commit-analyzer": "npm:^11.1.0"
     "@semantic-release/git": "npm:^10.0.1"
-    "@semantic-release/github": "npm:^9.2.5"
-    "@semantic-release/gitlab": "npm:^12.1.1"
+    "@semantic-release/github": "npm:^9.2.6"
+    "@semantic-release/gitlab": "npm:^13.0.0"
     "@semantic-release/npm": "npm:^11.0.2"
     "@semantic-release/release-notes-generator": "npm:^12.1.0"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
@@ -926,13 +926,6 @@ __metadata:
   version: 1.0.0
   resolution: "array-ify@npm:1.0.0"
   checksum: c0502015b319c93dd4484f18036bcc4b654eb76a4aa1f04afbcef11ac918859bb1f5d71ba1f0f1141770db9eef1a4f40f1761753650873068010bbf7bcdae4a4
-  languageName: node
-  linkType: hard
-
-"asynckit@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "asynckit@npm:0.4.0"
-  checksum: 3ce727cbc78f69d6a4722517a58ee926c8c21083633b1d3fdf66fd688f6c127a53a592141bd4866f9b63240a86e9d8e974b13919450bd17fa33c2d22c4558ad8
   languageName: node
   linkType: hard
 
@@ -1253,15 +1246,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"combined-stream@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "combined-stream@npm:1.0.8"
-  dependencies:
-    delayed-stream: "npm:~1.0.0"
-  checksum: 2e969e637d05d09fa50b02d74c83a1186f6914aae89e6653b62595cc75a221464f884f55f231b8f4df7a49537fba60bdc0427acd2bf324c09a1dbb84837e36e4
-  languageName: node
-  linkType: hard
-
 "common-ancestor-path@npm:^1.0.1":
   version: 1.0.1
   resolution: "common-ancestor-path@npm:1.0.1"
@@ -1445,13 +1429,6 @@ __metadata:
   version: 2.0.1
   resolution: "defer-to-connect@npm:2.0.1"
   checksum: 8a9b50d2f25446c0bfefb55a48e90afd58f85b21bcf78e9207cd7b804354f6409032a1705c2491686e202e64fc05f147aa5aa45f9aa82627563f045937f5791b
-  languageName: node
-  linkType: hard
-
-"delayed-stream@npm:~1.0.0":
-  version: 1.0.0
-  resolution: "delayed-stream@npm:1.0.0"
-  checksum: 46fe6e83e2cb1d85ba50bd52803c68be9bd953282fa7096f51fc29edd5d67ff84ff753c51966061e5ba7cb5e47ef6d36a91924eddb7f3f3483b1c560f77a0020
   languageName: node
   linkType: hard
 
@@ -1757,14 +1734,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"form-data@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "form-data@npm:4.0.0"
-  dependencies:
-    asynckit: "npm:^0.4.0"
-    combined-stream: "npm:^1.0.8"
-    mime-types: "npm:^2.1.12"
-  checksum: 7264aa760a8cf09482816d8300f1b6e2423de1b02bba612a136857413fdc96d7178298ced106817655facc6b89036c6e12ae31c9eb5bdc16aabf502ae8a5d805
+"formdata-node@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "formdata-node@npm:6.0.3"
+  checksum: 26ec90f5dd5d5572dceb524b86f42e28b148022e5c50b2af83ee8ad99d56f26157a7b5583ddbf10725e567bba30ad8bf6b6527f17f5e94d64ccaa950d1fe0b5f
   languageName: node
   linkType: hard
 
@@ -2797,22 +2770,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-db@npm:1.52.0":
-  version: 1.52.0
-  resolution: "mime-db@npm:1.52.0"
-  checksum: 54bb60bf39e6f8689f6622784e668a3d7f8bed6b0d886f5c3c446cb3284be28b30bf707ed05d0fe44a036f8469976b2629bbea182684977b084de9da274694d7
-  languageName: node
-  linkType: hard
-
-"mime-types@npm:^2.1.12":
-  version: 2.1.35
-  resolution: "mime-types@npm:2.1.35"
-  dependencies:
-    mime-db: "npm:1.52.0"
-  checksum: 89aa9651b67644035de2784a6e665fc685d79aba61857e02b9c8758da874a754aed4a9aced9265f5ed1171fd934331e5516b84a7f0218031b6fa0270eca1e51a
-  languageName: node
-  linkType: hard
-
 "mime@npm:^3.0.0":
   version: 3.0.0
   resolution: "mime@npm:3.0.0"
@@ -3341,6 +3298,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-filter@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "p-filter@npm:4.1.0"
+  dependencies:
+    p-map: "npm:^7.0.1"
+  checksum: a8c783f6f783d2cf2b1b23f128576abee9545942961d1a242d0bb673eaf5390e51acd887d526e468d23fb08546ba7c958222464e75a25ac502f2951aeffcbb72
+  languageName: node
+  linkType: hard
+
 "p-is-promise@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-is-promise@npm:3.0.0"
@@ -3381,6 +3347,13 @@ __metadata:
   dependencies:
     aggregate-error: "npm:^4.0.0"
   checksum: 089a709d2525208a965b7907cc8e58af950542629b538198fc142c40e7f36b3b492dd6a46a1279515ccab58bb6f047e04593c0ab5ef4539d312adf7f761edf55
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "p-map@npm:7.0.1"
+  checksum: df984b759764ebb268887ac0dec9f4b9c29c89dffb66cb001f31cab8a204db26e0f044783bc39ae1c225e2c0ad0b9c4d70a0ef8219dbb2588dc715d11cec433b
   languageName: node
   linkType: hard
 

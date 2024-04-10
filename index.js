@@ -53,7 +53,13 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md", "package.json"],
+        assets: [
+          "CHANGELOG.md",
+          "package.json",
+          "**/ios/*/Info.plist",
+          "**/ios/*/project.pbxproj",
+          "**/android/app/build.gradle",
+        ],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },

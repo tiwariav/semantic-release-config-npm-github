@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/tiwariav/semantic-release-config/compare/v1.2.7...v1.3.0) (2024-04-10)
+
+
+### ✨ Features
+
+* add react native files for git commit ([8235709](https://github.com/tiwariav/semantic-release-config/commit/8235709a8420ad3cafc572690dd93a33e32ae472))
+
 ## [1.2.7](https://github.com/tiwariav/semantic-release-config/compare/v1.2.6...v1.2.7) (2024-04-09)
 
 

@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/tiwariav/semantic-release-config/compare/v1.2.6...v1.2.7) (2024-04-09)
+
+
+### 🐛 Bug Fixes
+
+* enable npm plugin even if env var not present ([1b6389f](https://github.com/tiwariav/semantic-release-config/commit/1b6389f85b6d5a70a663a5dffcdd23511f175d34))
+
 ## [1.2.6](https://github.com/tiwariav/semantic-release-config/compare/v1.2.5...v1.2.6) (2024-04-08)
 
 

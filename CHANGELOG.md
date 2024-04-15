@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/tiwariav/semantic-release-config/compare/v1.3.0...v1.3.1) (2024-04-15)
+
+
+### 🐛 Bug Fixes
+
+* exclude react-native files from node_modules ([749629c](https://github.com/tiwariav/semantic-release-config/commit/749629c86a645595ce5ec7e688c7276690ad1d3f))
+
 ## [1.3.0](https://github.com/tiwariav/semantic-release-config/compare/v1.2.7...v1.3.0) (2024-04-10)
 
 

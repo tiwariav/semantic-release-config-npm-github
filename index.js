@@ -56,9 +56,9 @@ module.exports = {
         assets: [
           "CHANGELOG.md",
           "package.json",
-          "**/!(.yarn|node_modules)/ios/*/Info.plist",
-          "**/!(.yarn|node_modules)/ios/*/project.pbxproj",
-          "**/!(.yarn|node_modules)/android/app/build.gradle",
+          "**/!(.yarn|node_modules)/**/ios/*/Info.plist",
+          "**/!(.yarn|node_modules)/**/ios/*/project.pbxproj",
+          "**/!(.yarn|node_modules)/**/android/app/build.gradle",
         ],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",

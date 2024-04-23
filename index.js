@@ -3,7 +3,7 @@ const fs = require("fs");
 const distPath = "./dist";
 
 module.exports = {
-  branches: ["main"],
+  branches: ["main", "master", "+([0-9])?(.{+([0-9]),x}).x"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",

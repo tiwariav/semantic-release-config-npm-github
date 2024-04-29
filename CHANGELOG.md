@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/tiwariav/semantic-release-config/compare/v1.3.3...v1.3.4) (2024-04-29)
+
+
+### ♻️ Code Refactors
+
+* update packages ([82ebda8](https://github.com/tiwariav/semantic-release-config/commit/82ebda805c3713d106c43a68eb09fb5cd52aa18b))
+
 ## [1.3.3](https://github.com/tiwariav/semantic-release-config/compare/v1.3.2...v1.3.3) (2024-04-23)
 
 

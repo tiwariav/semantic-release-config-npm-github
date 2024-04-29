@@ -15,16 +15,16 @@
   "scripts": {
     "release": "npm publish --access public"
   },
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.1.1",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^12.0.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^10.0.3",
-    "@semantic-release/gitlab": "^13.0.3",
+    "@semantic-release/gitlab": "^13.0.4",
     "@semantic-release/npm": "^12.0.0",
     "@semantic-release/release-notes-generator": "^13.0.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
-    "semantic-release": "^23.0.7"
+    "semantic-release": "^23.0.8"
   }
 }

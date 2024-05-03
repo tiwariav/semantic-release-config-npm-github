@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/tiwariav/semantic-release-config/compare/v1.3.4...v1.3.5) (2024-05-03)
+
+
+### 🐛 Bug Fixes
+
+* ignore node_modules files ([65f65a0](https://github.com/tiwariav/semantic-release-config/commit/65f65a0e4af985927c53aa97ac0687b9e9c8855d))
+
 ## [1.3.4](https://github.com/tiwariav/semantic-release-config/compare/v1.3.3...v1.3.4) (2024-04-29)
 
 

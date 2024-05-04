@@ -66,5 +66,3 @@ module.exports = {
     ],
   ],
 };
-
-.yarn/unplugged/react-native-virtual-20ea10ef97/node_modules/react-native/template/ios/HelloWorld/Info.plist

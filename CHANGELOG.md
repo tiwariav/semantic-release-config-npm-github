@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/tiwariav/semantic-release-config/compare/v1.3.5...v1.3.6) (2024-05-06)
+
+
+### 🐛 Bug Fixes
+
+* remove extra line from config ([94ac5ca](https://github.com/tiwariav/semantic-release-config/commit/94ac5ca64006604fed94b1681c4ac013fef4c399))
+
 ## [1.3.5](https://github.com/tiwariav/semantic-release-config/compare/v1.3.4...v1.3.5) (2024-05-03)
 
 

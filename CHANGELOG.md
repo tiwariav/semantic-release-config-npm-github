@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/tiwariav/semantic-release-config/compare/v1.3.6...v1.3.7) (2024-05-10)
+
+
+### ♻️ Code Refactors
+
+* update conventional-changelog-conventionalcommits to v8 ([c4ac6dc](https://github.com/tiwariav/semantic-release-config/commit/c4ac6dcd2b284ec825a41d0a37e34d1cd27f84e3))
+
 ## [1.3.6](https://github.com/tiwariav/semantic-release-config/compare/v1.3.5...v1.3.6) (2024-05-06)
 
 

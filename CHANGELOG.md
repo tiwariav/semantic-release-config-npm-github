@@ -1,3 +1,15 @@
+## [1.3.8](https://github.com/tiwariav/semantic-release-config/compare/v1.3.7...v1.3.8) (2024-05-10)
+
+
+### 🐛 Bug Fixes
+
+* revert conventional-changelog-conventionalcommits to v7 ([a47cd8e](https://github.com/tiwariav/semantic-release-config/commit/a47cd8efbd5b4e2d2af462c0a065a37b1244cda1))
+
+
+### Reverts
+
+* revert conventional-changelog-conventionalcommits to v7 ([2806ca0](https://github.com/tiwariav/semantic-release-config/commit/2806ca0616aa47b7d4863207d88b8c1f79cc456b))
+
 ## [1.3.7](https://github.com/tiwariav/semantic-release-config/compare/v1.3.6...v1.3.7) (2024-05-10)
 
 

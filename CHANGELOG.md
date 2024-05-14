@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/tiwariav/semantic-release-config/compare/v1.3.8...v1.3.9) (2024-05-14)
+
+
+### ♻️ Code Refactors
+
+* yarn dedupe ([43350e1](https://github.com/tiwariav/semantic-release-config/commit/43350e181dd9858f57e5b6147acda0311d4e3ff0))
+
 ## [1.3.8](https://github.com/tiwariav/semantic-release-config/compare/v1.3.7...v1.3.8) (2024-05-10)
 
 
